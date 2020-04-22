@@ -1099,6 +1099,64 @@
         ]
     },
     {
+        "name": "drupal/trusted_proxy_headers_debug",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/trusted_proxy_headers_debug.git",
+            "reference": "8.x-0.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/trusted_proxy_headers_debug-8.x-0.1.zip",
+            "reference": "8.x-0.1",
+            "shasum": "0da41cd0a219790d9cae2ee94ada33c18e42a29a"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-0.1",
+                "datestamp": "1586800564",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            },
+            "branch-alias": {
+                "dev-8.x-0.x": "0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "See all contributors",
+                "homepage": "https://www.drupal.org/node/3126646/committers"
+            },
+            {
+                "name": "mcdruid",
+                "homepage": "https://www.drupal.org/user/255969"
+            },
+            {
+                "name": "nerdstein",
+                "homepage": "https://www.drupal.org/user/1557710"
+            }
+        ],
+        "description": "Utility for setting up and testing Trusted Proxy Headers.",
+        "homepage": "https://www.drupal.org/project/trusted_proxy_headers_debug",
+        "support": {
+            "source": "git://git.drupal.org/project/trusted_proxy_headers_debug.git",
+            "issues": "https://www.drupal.org/project/issues/trusted_proxy_headers_debug"
+        }
+    },
+    {
         "name": "easyrdf/easyrdf",
         "version": "0.9.1",
         "version_normalized": "0.9.1.0",

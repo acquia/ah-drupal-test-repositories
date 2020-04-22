@@ -1,0 +1,7 @@
+trusted_proxy_headers_debug.report:
+  path: '/admin/reports/status/trusted_proxy_headers_debug'
+  defaults:
+    _controller: '\Drupal\trusted_proxy_headers_debug\Controller\TrustedProxyHeadersDebugController::report'
+    _title: 'Trusted Proxy Headers Debug Report'
+  requirements:
+    _custom_access: '\Drupal\trusted_proxy_headers_debug\Controller\TrustedProxyHeadersDebugController::access'

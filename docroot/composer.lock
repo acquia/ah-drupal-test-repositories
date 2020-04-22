@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ea1a346dc1e60285388f6b27eb07195",
+    "content-hash": "70f7dec1645301fe7dfcd3bfb8a7aa70",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -650,6 +650,11 @@
         {
             "name": "drupal/core",
             "version": "8.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "e22cfc3adf1dac7a92452287a7d8602f3c27b68f"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core/zipball/e22cfc3adf1dac7a92452287a7d8602f3c27b68f",
@@ -876,16 +881,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "e22cfc3adf1dac7a92452287a7d8602f3c27b68f"
-            }
+            "description": "Drupal is an open source content management platform powering millions of websites and applications."
         },
         {
             "name": "drupal/core-composer-scaffold",
             "version": "8.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-composer-scaffold.git",
+                "reference": "4825cb5234c28dff79ad298db582dfb23ff4ca59"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/4825cb5234c28dff79ad298db582dfb23ff4ca59",
@@ -921,16 +926,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "4825cb5234c28dff79ad298db582dfb23ff4ca59"
-            }
+            ]
         },
         {
             "name": "drupal/core-project-message",
             "version": "8.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-project-message.git",
+                "reference": "10be18c6a401de8e243777de6a74cb45a7ecacad"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-project-message/zipball/10be18c6a401de8e243777de6a74cb45a7ecacad",
@@ -957,16 +962,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "10be18c6a401de8e243777de6a74cb45a7ecacad"
-            }
+            ]
         },
         {
             "name": "drupal/core-recommended",
             "version": "8.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-recommended.git",
+                "reference": "7163954903e63ead331de073c83ad769926ad9a1"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-recommended/zipball/7163954903e63ead331de073c83ad769926ad9a1",
@@ -1035,16 +1040,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "7163954903e63ead331de073c83ad769926ad9a1"
-            }
+            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
         },
         {
             "name": "drupal/core-vendor-hardening",
             "version": "8.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-vendor-hardening.git",
+                "reference": "1b41da0867c3c9b870db95e94a5adaf4dbbc909b"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-vendor-hardening/zipball/1b41da0867c3c9b870db95e94a5adaf4dbbc909b",
@@ -1071,11 +1076,62 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
+            ]
+        },
+        {
+            "name": "drupal/trusted_proxy_headers_debug",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/drupal/core-vendor-hardening.git",
-                "reference": "1b41da0867c3c9b870db95e94a5adaf4dbbc909b"
+                "url": "https://git.drupalcode.org/project/trusted_proxy_headers_debug.git",
+                "reference": "8.x-0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/trusted_proxy_headers_debug-8.x-0.1.zip",
+                "reference": "8.x-0.1",
+                "shasum": "0da41cd0a219790d9cae2ee94ada33c18e42a29a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-0.1",
+                    "datestamp": "1586800564",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "branch-alias": {
+                    "dev-8.x-0.x": "0.x-dev"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See all contributors",
+                    "homepage": "https://www.drupal.org/node/3126646/committers"
+                },
+                {
+                    "name": "mcdruid",
+                    "homepage": "https://www.drupal.org/user/255969"
+                },
+                {
+                    "name": "nerdstein",
+                    "homepage": "https://www.drupal.org/user/1557710"
+                }
+            ],
+            "description": "Utility for setting up and testing Trusted Proxy Headers.",
+            "homepage": "https://www.drupal.org/project/trusted_proxy_headers_debug",
+            "support": {
+                "source": "git://git.drupal.org/project/trusted_proxy_headers_debug.git",
+                "issues": "https://www.drupal.org/project/issues/trusted_proxy_headers_debug"
             }
         },
         {
@@ -3632,6 +3688,5 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }

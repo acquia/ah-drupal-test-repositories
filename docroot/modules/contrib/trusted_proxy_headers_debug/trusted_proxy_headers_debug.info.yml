@@ -1,0 +1,13 @@
+name: Trusted Proxy Headers Debug
+description: Utility for setting up and testing Trusted Proxy Headers
+package: Security
+
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+
+# Information added by Drupal.org packaging script on 2020-04-13
+version: '8.x-0.1'
+project: 'trusted_proxy_headers_debug'
+datestamp: 1586800566

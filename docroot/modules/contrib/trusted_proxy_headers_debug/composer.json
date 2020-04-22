@@ -1,0 +1,25 @@
+{
+    "name": "drupal/trusted_proxy_headers_debug",
+    "description": "Utility for setting up and testing Trusted Proxy Headers.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/trusted_proxy_headers_debug",
+    "authors": [
+        {
+            "name": "See all contributors",
+            "homepage": "https://www.drupal.org/node/3126646/committers"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/trusted_proxy_headers_debug",
+        "source": "git://git.drupal.org/project/trusted_proxy_headers_debug.git"
+    },
+    "license": "GPL-2.0+",
+    "require": {
+        "drupal/core": "^8 || ^9"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-8.x-0.x": "0.x-dev"
+        }
+    }
+}
